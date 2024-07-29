@@ -1,3 +1,4 @@
+// 1
 const person = {
     name:'nasrin akter',
     age:30,
@@ -8,7 +9,7 @@ const{name,age} = person;
 console.log(name,age);
 
 
-
+// 3
 class Rectangle {
     constructor(width, height) {
       this.width = width;
@@ -25,7 +26,7 @@ class Rectangle {
   const result = new Rectangle(3, 10);
   console.log(`The area of the rectangle is ${result.calculateArea()}`);
 
-
+// 4
   class Person {
     constructor(firstName, lastName) {
       this.firstName = firstName;
@@ -56,6 +57,8 @@ class Rectangle {
   console.log(person1.lastName);  
   console.log(person1.fullName);  
 
+
+//   5
   const Circle = class {
     constructor(radius) {
       this.radius = radius;
@@ -71,7 +74,7 @@ class Rectangle {
   console.log(`The circumference of the circle is ${myCircleResult.calculateCircumference()}`); 
 
 
-
+// 6
 const propName1 = 'name';
 const propName2 = 'age';
 const propName3 = 'occupation';
@@ -88,7 +91,7 @@ console.log(newPerson.age);
 console.log(newPerson.occupation); 
 
   
-
+// 7
 class Animal {
     constructor(name) {
       this.name = name;
@@ -118,7 +121,7 @@ class Animal {
   
   myDog.makeSound(); 
 
-
+// 9
   class MathUtil {
     static square(number) {
       return number * number;
@@ -128,7 +131,7 @@ class Animal {
   console.log(`The square of ${num} is ${MathUtil.square(num)}`); 
   
   
-
+// 10
 const uniqueKey = Symbol('uniqueKey');
 
 const obj = {
